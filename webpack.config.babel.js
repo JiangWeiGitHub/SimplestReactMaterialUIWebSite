@@ -7,9 +7,9 @@ module.exports = {
     public: './public/src/index'
   },
   output: {
-    path: path.join(__dirname, 'public/dist'),
+    path: path.join(__dirname, '/public/dist'),
     filename: 'bundle.js',
-    publicPath: 'public/dist'
+    publicPath: '/public/dist'
   },
   plugins: [],
   module: {

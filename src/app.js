@@ -8,6 +8,8 @@ let router = Router()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
+app.use(express.static('public/dist'))
+
 router.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname, '../public/dist/index.html'))
 })
