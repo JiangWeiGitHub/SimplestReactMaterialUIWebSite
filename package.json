@@ -16,7 +16,8 @@
     ]
   },
   "scripts": {
-    "build": "babel src/ -d lib/"
+    "build": "babel src/ -d lib/",
+    "start": "node lib/app.js"
   },
   "author": "",
   "license": "ISC",
