@@ -7,8 +7,8 @@
 [Code Editor: **Sublime**](http://www.sublimetext.com/3)<p>
 
 ### How to use
-  + 1. npm install --registry https://registry.npm.taobao.org
-  + 2. ./node_modules/.bin/gulp transform
-  + 3. ./node_modules/.bin/gulp webpack:build
-  + 4. npm run start
-  + 5. open browser to see the webpage
+  + npm install --registry https://registry.npm.taobao.org
+  + ./node_modules/.bin/gulp transform
+  + ./node_modules/.bin/gulp webpack:build
+  + npm run start
+  + open browser to see the webpage just like: `192.168.5.110:3000`
