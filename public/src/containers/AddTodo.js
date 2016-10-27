@@ -41,7 +41,15 @@ let AddTodo = ({ dispatch }) => {
 
           <input ref={node => {
             input = node
-          }} />
+          }}
+          style={{
+          width: '230px',
+          height: '30px',
+          margin: '10px',
+          border: '2px solid #E0E0E0',
+          backgroundColor: '#F5F5F5',
+          }}
+          />
 
           <RaisedButton type="submit" label="Add todo" style={style} />
 
