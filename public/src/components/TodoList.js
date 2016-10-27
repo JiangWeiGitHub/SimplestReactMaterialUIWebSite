@@ -10,6 +10,7 @@ const style = {
   width: 250,
   margin: 10,
   textAlign: 'left',
+  'line-height': 30,
 };
 
 const muiTheme = getMuiTheme({
