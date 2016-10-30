@@ -8,7 +8,5 @@
 
 ### How to use
   + npm install --registry https://registry.npm.taobao.org
-  + ./node_modules/.bin/gulp transform
-  + ./node_modules/.bin/gulp webpack:build
   + npm run start
   + open browser to see the webpage just like: `192.168.5.110:3000`
