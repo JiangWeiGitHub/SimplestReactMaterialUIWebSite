@@ -6,7 +6,7 @@
 [Code Editor: **Sublime**](http://www.sublimetext.com/3)<p>
 
 ### How to use
-  + npm install --registry https://registry.npm.taobao.org
+  + npm install --registry https://registry.npm.taobao.org<p>
     If you were not in China, just use `npm install`.
   + npm run start
   + open browser to see the webpage just like: `192.168.5.110`
