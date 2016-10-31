@@ -7,5 +7,6 @@
 
 ### How to use
   + npm install --registry https://registry.npm.taobao.org
+    If you were not in China, just use `npm install`.
   + npm run start
   + open browser to see the webpage just like: `192.168.5.110`
