@@ -1,10 +1,6 @@
 html, body {
   height: 98%;
-}
-
-@font-face {
-   font-family: 'Microsoft YaHei';
-   src: url('../font/msyh.ttf');
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -13,7 +9,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  font-family: 'Microsoft YaHei';
 }
 
 .banner{

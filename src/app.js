@@ -16,6 +16,6 @@ router.get('/', (req, res, next) => {
 
 app.use('/', router)
 
-app.listen(3333, () => {
-  console.log('Listening at port 3333... ...')
+app.listen(80, () => {
+  console.log('Listening at port 80... ...')
 })

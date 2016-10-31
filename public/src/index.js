@@ -73,7 +73,7 @@ class Form extends React.Component {
   }
 
   handleSubmit(event) {
-    if ('aaa' === this.state.value) {
+    if ('john' === this.state.value) {
       this.setState({open: true})
     }
     else if ('' === this.state.value){
@@ -100,7 +100,7 @@ class Form extends React.Component {
 
     const actions = [
       <FlatButton
-        label="晓得了"
+        label="Got it"
         primary={true}
         keyboardFocused={true}
         onClick={this.handleClose}
@@ -115,7 +115,7 @@ class Form extends React.Component {
           <Paper style={paperStyle} zDepth={2} >
             <span>
               <TextField
-                hintText="请输入真实姓名"
+                hintText="Input your real name"
                 underlineStyle={styles.underlineStyle}
                 value={this.state.value}
                 onChange={this.handleChange}
@@ -124,12 +124,12 @@ class Form extends React.Component {
 
             <div style={buttonStyle}>
               <RaisedButton
-                label="清 除"
+                label="Clean"
                 primary={true}
                 onClick={this.handleClean}
               />
               <RaisedButton
-                label="确 认"
+                label="Confirm"
                 secondary={true}
                 onClick={this.handleSubmit}
               />
@@ -137,33 +137,33 @@ class Form extends React.Component {
           </Paper>
 
           <Dialog
-            title="欢迎亲 ^_^"
+            title="Welcome Honey"
             actions={actions}
             modal={false}
             open={this.state.open}
             onRequestClose={this.handleClose}
           >
-            么么哒
+            Happy Halloween!
           </Dialog>
 
           <Dialog
-            title="此路不通"
+            title="Dead End"
             actions={actions}
             modal={false}
             open={this.state.openWrongGuy}
             onRequestClose={this.handleClose}
           >
-            你不是我要等的有缘人！
+            You are not the Mr. Right!
           </Dialog>
 
           <Dialog
-            title="没空和你玩"
+            title="Empty Input"
             actions={actions}
             modal={false}
             open={this.state.openEmpty}
             onRequestClose={this.handleClose}
           >
-            不输入内容，你想上天呀？
+            What the fcuk do you want to do?
           </Dialog>
 
         </div>
